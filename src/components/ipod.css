@@ -1,0 +1,53 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans";
+  background-color: rgb(115, 115, 115);
+}
+
+/* display */
+.Ipod {
+  height: 500px;
+  width: 350px;
+  position: relative;
+  margin-top: 10px;
+}
+
+/* screen styling */
+.screen {
+  background-color: grey;
+  position: absolute;
+  width: 75%;
+  height: 45%;
+  border-radius: 10%;
+  top: 60px;
+  left: 151px;
+}
+
+/* all controls */
+.controls {
+  height: 220px;
+  width: 220px;
+  position: absolute;
+  top: 310px;
+  left: 190px;
+  border-radius: 50%;
+}
+.controls:focus {
+  outline: none;
+}
+
+/* menu button */
+.small-button {
+  height: 40%;
+  width: 40%;
+  background-color: transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 33%;
+  left: 30%;
+  border: none;
+}
+
+.screen-elements {
+  padding: 15px;
+}
